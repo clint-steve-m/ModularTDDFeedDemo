@@ -11,10 +11,10 @@
 		878D506B22315FA4006315A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 878D506922315FA4006315A4 /* Main.storyboard */; };
 		878D506D22315FA6006315A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 878D506C22315FA6006315A4 /* Assets.xcassets */; };
 		878D507022315FA6006315A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 878D506E22315FA6006315A4 /* LaunchScreen.storyboard */; };
-		878D507B22315FA6006315A4 /* ModularFeedDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878D507A22315FA6006315A4 /* ModularFeedDemoTests.swift */; };
 		878D508622315FA6006315A4 /* ModularFeedDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878D508522315FA6006315A4 /* ModularFeedDemoUITests.swift */; };
 		878D50952231601D006315A4 /* FeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878D50942231601D006315A4 /* FeedItem.swift */; };
 		878D509722316100006315A4 /* FeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878D509622316100006315A4 /* FeedLoader.swift */; };
+		878D509A223162D9006315A4 /* RemoteFeedLoaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878D5099223162D9006315A4 /* RemoteFeedLoaderTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,13 +42,13 @@
 		878D506F22315FA6006315A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		878D507122315FA6006315A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		878D507622315FA6006315A4 /* ModularFeedDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ModularFeedDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		878D507A22315FA6006315A4 /* ModularFeedDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModularFeedDemoTests.swift; sourceTree = "<group>"; };
 		878D507C22315FA6006315A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		878D508122315FA6006315A4 /* ModularFeedDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ModularFeedDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		878D508522315FA6006315A4 /* ModularFeedDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModularFeedDemoUITests.swift; sourceTree = "<group>"; };
 		878D508722315FA6006315A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		878D50942231601D006315A4 /* FeedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItem.swift; sourceTree = "<group>"; };
 		878D509622316100006315A4 /* FeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLoader.swift; sourceTree = "<group>"; };
+		878D5099223162D9006315A4 /* RemoteFeedLoaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteFeedLoaderTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				878D506522315FA4006315A4 /* AppDelegate.swift */,
-				878D5098223161E1006315A4 /* New Group */,
+				878D5098223161E1006315A4 /* FeedFeature */,
 				878D509322316002006315A4 /* Storyboards */,
 				878D506C22315FA6006315A4 /* Assets.xcassets */,
 				878D507122315FA6006315A4 /* Info.plist */,
@@ -111,8 +111,8 @@
 		878D507922315FA6006315A4 /* ModularFeedDemoTests */ = {
 			isa = PBXGroup;
 			children = (
-				878D507A22315FA6006315A4 /* ModularFeedDemoTests.swift */,
 				878D507C22315FA6006315A4 /* Info.plist */,
+				878D5099223162D9006315A4 /* RemoteFeedLoaderTests.swift */,
 			);
 			path = ModularFeedDemoTests;
 			sourceTree = "<group>";
@@ -135,13 +135,13 @@
 			path = Storyboards;
 			sourceTree = "<group>";
 		};
-		878D5098223161E1006315A4 /* New Group */ = {
+		878D5098223161E1006315A4 /* FeedFeature */ = {
 			isa = PBXGroup;
 			children = (
 				878D50942231601D006315A4 /* FeedItem.swift */,
 				878D509622316100006315A4 /* FeedLoader.swift */,
 			);
-			name = "New Group";
+			name = FeedFeature;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,6 +215,7 @@
 					};
 					878D507522315FA6006315A4 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 						TestTargetID = 878D506122315FA4006315A4;
 					};
 					878D508022315FA6006315A4 = {
@@ -285,7 +286,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				878D507B22315FA6006315A4 /* ModularFeedDemoTests.swift in Sources */,
+				878D509A223162D9006315A4 /* RemoteFeedLoaderTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -489,6 +490,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L9UF684822;
 				INFOPLIST_FILE = ModularFeedDemoTests/Info.plist;
@@ -499,6 +501,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.clintmejia.ios.ModularFeedDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ModularFeedDemo.app/ModularFeedDemo";
@@ -510,6 +513,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L9UF684822;
 				INFOPLIST_FILE = ModularFeedDemoTests/Info.plist;
