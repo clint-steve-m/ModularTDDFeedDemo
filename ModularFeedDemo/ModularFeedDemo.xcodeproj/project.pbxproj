@@ -100,8 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				878D506522315FA4006315A4 /* AppDelegate.swift */,
-				878D50942231601D006315A4 /* FeedItem.swift */,
-				878D509622316100006315A4 /* FeedLoader.swift */,
+				878D5098223161E1006315A4 /* New Group */,
 				878D509322316002006315A4 /* Storyboards */,
 				878D506C22315FA6006315A4 /* Assets.xcassets */,
 				878D507122315FA6006315A4 /* Info.plist */,
@@ -134,6 +133,15 @@
 				878D506E22315FA6006315A4 /* LaunchScreen.storyboard */,
 			);
 			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		878D5098223161E1006315A4 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				878D50942231601D006315A4 /* FeedItem.swift */,
+				878D509622316100006315A4 /* FeedLoader.swift */,
+			);
+			name = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
