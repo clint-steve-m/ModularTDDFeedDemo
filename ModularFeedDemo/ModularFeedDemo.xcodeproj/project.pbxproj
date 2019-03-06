@@ -14,6 +14,7 @@
 		878D507B22315FA6006315A4 /* ModularFeedDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878D507A22315FA6006315A4 /* ModularFeedDemoTests.swift */; };
 		878D508622315FA6006315A4 /* ModularFeedDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878D508522315FA6006315A4 /* ModularFeedDemoUITests.swift */; };
 		878D50952231601D006315A4 /* FeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878D50942231601D006315A4 /* FeedItem.swift */; };
+		878D509722316100006315A4 /* FeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878D509622316100006315A4 /* FeedLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		878D508522315FA6006315A4 /* ModularFeedDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModularFeedDemoUITests.swift; sourceTree = "<group>"; };
 		878D508722315FA6006315A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		878D50942231601D006315A4 /* FeedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItem.swift; sourceTree = "<group>"; };
+		878D509622316100006315A4 /* FeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLoader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				878D506522315FA4006315A4 /* AppDelegate.swift */,
 				878D50942231601D006315A4 /* FeedItem.swift */,
+				878D509622316100006315A4 /* FeedLoader.swift */,
 				878D509322316002006315A4 /* Storyboards */,
 				878D506C22315FA6006315A4 /* Assets.xcassets */,
 				878D507122315FA6006315A4 /* Info.plist */,
@@ -264,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				878D509722316100006315A4 /* FeedLoader.swift in Sources */,
 				878D50952231601D006315A4 /* FeedItem.swift in Sources */,
 				878D506622315FA4006315A4 /* AppDelegate.swift in Sources */,
 			);
