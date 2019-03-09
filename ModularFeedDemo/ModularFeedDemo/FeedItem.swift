@@ -8,6 +8,10 @@
 
 import Foundation
 
+// Has no knowledge of API
+// keeps module abstract
+// implementation details are not leaked
+// decouple the Feed Feature module from API implementation details
 public struct FeedItem: Equatable {
     public let id: UUID
     public let description: String?
@@ -19,14 +23,5 @@ public struct FeedItem: Equatable {
         self.description = description
         self.location = location
         self.imageURL = imageURL
-    }
-}
-
-extension FeedItem: Decodable {
-    private enum CodingKeys: String, CodingKey {
-        case id
-        case description
-        case location
-        case imageURL = "image"
     }
 }
