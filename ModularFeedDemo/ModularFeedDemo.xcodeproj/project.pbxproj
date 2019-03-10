@@ -16,6 +16,7 @@
 		878D509722316100006315A4 /* FeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878D509622316100006315A4 /* FeedLoader.swift */; };
 		878D509A223162D9006315A4 /* RemoteFeedLoaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878D5099223162D9006315A4 /* RemoteFeedLoaderTests.swift */; };
 		878D509D22317429006315A4 /* RemoteFeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878D509C22317429006315A4 /* RemoteFeedLoader.swift */; };
+		87BBB9E12238780C00710EC0 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87BBB9E02238780C00710EC0 /* HTTPClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		878D509622316100006315A4 /* FeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLoader.swift; sourceTree = "<group>"; };
 		878D5099223162D9006315A4 /* RemoteFeedLoaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteFeedLoaderTests.swift; sourceTree = "<group>"; };
 		878D509C22317429006315A4 /* RemoteFeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteFeedLoader.swift; sourceTree = "<group>"; };
+		87BBB9E02238780C00710EC0 /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +153,7 @@
 			isa = PBXGroup;
 			children = (
 				878D509C22317429006315A4 /* RemoteFeedLoader.swift */,
+				87BBB9E02238780C00710EC0 /* HTTPClient.swift */,
 			);
 			path = FeedAPI;
 			sourceTree = "<group>";
@@ -288,6 +291,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				878D509D22317429006315A4 /* RemoteFeedLoader.swift in Sources */,
+				87BBB9E12238780C00710EC0 /* HTTPClient.swift in Sources */,
 				878D509722316100006315A4 /* FeedLoader.swift in Sources */,
 				878D50952231601D006315A4 /* FeedItem.swift in Sources */,
 				878D506622315FA4006315A4 /* AppDelegate.swift in Sources */,
