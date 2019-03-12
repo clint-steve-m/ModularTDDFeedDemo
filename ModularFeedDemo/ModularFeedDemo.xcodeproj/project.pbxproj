@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		878A80E12239663100C94E12 /* XCTestCase+MemoryLeakTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878A80E02239663100C94E12 /* XCTestCase+MemoryLeakTracking.swift */; };
+		878A80E322398C9900C94E12 /* URLSessionHTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878A80E222398C9900C94E12 /* URLSessionHTTPClient.swift */; };
 		878D506622315FA4006315A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878D506522315FA4006315A4 /* AppDelegate.swift */; };
 		878D506B22315FA4006315A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 878D506922315FA4006315A4 /* Main.storyboard */; };
 		878D506D22315FA6006315A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 878D506C22315FA6006315A4 /* Assets.xcassets */; };
@@ -41,6 +42,7 @@
 
 /* Begin PBXFileReference section */
 		878A80E02239663100C94E12 /* XCTestCase+MemoryLeakTracking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+MemoryLeakTracking.swift"; sourceTree = "<group>"; };
+		878A80E222398C9900C94E12 /* URLSessionHTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionHTTPClient.swift; sourceTree = "<group>"; };
 		878D506222315FA4006315A4 /* ModularFeedDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModularFeedDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		878D506522315FA4006315A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		878D506A22315FA4006315A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -169,6 +171,7 @@
 				878D509C22317429006315A4 /* RemoteFeedLoader.swift */,
 				87BBB9E22238790200710EC0 /* FeedItemsMapper.swift */,
 				87BBB9E02238780C00710EC0 /* HTTPClient.swift */,
+				878A80E222398C9900C94E12 /* URLSessionHTTPClient.swift */,
 			);
 			path = FeedAPI;
 			sourceTree = "<group>";
@@ -315,6 +318,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				878A80E322398C9900C94E12 /* URLSessionHTTPClient.swift in Sources */,
 				878D509D22317429006315A4 /* RemoteFeedLoader.swift in Sources */,
 				87BBB9E12238780C00710EC0 /* HTTPClient.swift in Sources */,
 				878D509722316100006315A4 /* FeedLoader.swift in Sources */,
