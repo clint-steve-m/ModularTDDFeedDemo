@@ -7,7 +7,7 @@
 //
 
 import XCTest
-import ModularFeedDemo
+import ModularFeedTDDCaseStudy
 
 class URLSessionHTTPClientTests: XCTestCase {
     
