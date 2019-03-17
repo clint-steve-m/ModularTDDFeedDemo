@@ -1,5 +1,5 @@
 //
-//  RemoteFeedLoaderTests.swift
+//  LoadFeedFromRemoteUseCaseTests.swift
 //  ModularFeedDemoTests
 //
 //  Created by Clint M on 3/7/19.
@@ -9,7 +9,7 @@
 import XCTest
 import ModularFeedTDDCaseStudy
 
-class RemoteFeedLoaderTests: XCTestCase {
+class LoadFeedFromRemoteUseCaseTests: XCTestCase {
     
     func test_init_doesNotRequestDataFromURL() {
         let (_, client) = makeSUT()
