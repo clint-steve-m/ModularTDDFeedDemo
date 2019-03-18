@@ -121,6 +121,7 @@
 			isa = PBXGroup;
 			children = (
 				874E89D0224292340074B59F /* Info.plist */,
+				874E8A1F224294440074B59F /* Helpers */,
 				874E8A362242D0580074B59F /* FeedCache */,
 				874E8A1E2242943A0074B59F /* FeedAPI */,
 			);
@@ -150,7 +151,6 @@
 		874E8A1E2242943A0074B59F /* FeedAPI */ = {
 			isa = PBXGroup;
 			children = (
-				874E8A1F224294440074B59F /* Helpers */,
 				874E8A222242948A0074B59F /* LoadFeedFromRemoteUseCaseTests.swift */,
 				874E8A24224294B00074B59F /* URLSessionHTTPClientTests.swift */,
 			);
@@ -163,6 +163,7 @@
 				874E8A20224294750074B59F /* XCTestCase+MemoryLeakTracking.swift */,
 			);
 			name = Helpers;
+			path = FeedAPI;
 			sourceTree = "<group>";
 		};
 		874E8A2B22429C720074B59F /* ModularFeedTDDCaseStudyAPIEndToEndTests */ = {
