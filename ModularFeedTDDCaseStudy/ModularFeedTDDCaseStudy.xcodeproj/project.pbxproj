@@ -24,6 +24,7 @@
 		87EFC20F22449BF00092E3FE /* LocalFeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87EFC20E22449BF00092E3FE /* LocalFeedLoader.swift */; };
 		87EFC21122449CBE0092E3FE /* FeedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87EFC21022449CBE0092E3FE /* FeedStore.swift */; };
 		87EFC2132244A8EA0092E3FE /* RemoteFeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87EFC2122244A8EA0092E3FE /* RemoteFeedItem.swift */; };
+		87EFC2152244A95A0092E3FE /* LocalFeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87EFC2142244A95A0092E3FE /* LocalFeedItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,7 @@
 		87EFC20E22449BF00092E3FE /* LocalFeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFeedLoader.swift; sourceTree = "<group>"; };
 		87EFC21022449CBE0092E3FE /* FeedStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedStore.swift; sourceTree = "<group>"; };
 		87EFC2122244A8EA0092E3FE /* RemoteFeedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteFeedItem.swift; sourceTree = "<group>"; };
+		87EFC2142244A95A0092E3FE /* LocalFeedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFeedItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -196,6 +198,7 @@
 			children = (
 				87EFC20E22449BF00092E3FE /* LocalFeedLoader.swift */,
 				87EFC21022449CBE0092E3FE /* FeedStore.swift */,
+				87EFC2142244A95A0092E3FE /* LocalFeedItem.swift */,
 			);
 			path = FeedCache;
 			sourceTree = "<group>";
@@ -343,6 +346,7 @@
 				874E8A1B224293FA0074B59F /* HTTPClient.swift in Sources */,
 				87EFC2132244A8EA0092E3FE /* RemoteFeedItem.swift in Sources */,
 				874E8A17224293D10074B59F /* RemoteFeedLoader.swift in Sources */,
+				87EFC2152244A95A0092E3FE /* LocalFeedItem.swift in Sources */,
 				87EFC21122449CBE0092E3FE /* FeedStore.swift in Sources */,
 				87EFC20F22449BF00092E3FE /* LocalFeedLoader.swift in Sources */,
 				874E8A132242939B0074B59F /* FeedItem.swift in Sources */,
