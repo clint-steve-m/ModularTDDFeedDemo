@@ -11,7 +11,7 @@ import ModularFeedTDDCaseStudy
 
 class FeedStoreSpy: FeedStore {
     enum ReceivedMessage: Equatable {
-        case deleteCacheFeed
+        case deleteCachedFeed
         case insert([LocalFeedImage], Date)
         case retrieve
     }
@@ -24,7 +24,7 @@ class FeedStoreSpy: FeedStore {
     
     func deleteCachedFeed(completion: @escaping DeletionCompletion) {
         deletionCompletions.append(completion)
-        receivedMessages.append(.deleteCacheFeed)
+        receivedMessages.append(.deleteCachedFeed)
     }
     
     func completeDeletion(with error: Error, at index: Int = 0) {

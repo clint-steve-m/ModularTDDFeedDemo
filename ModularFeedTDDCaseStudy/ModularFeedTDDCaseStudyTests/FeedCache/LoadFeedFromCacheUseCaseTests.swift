@@ -10,7 +10,7 @@ import XCTest
 import ModularFeedTDDCaseStudy
 
 class LoadFeedFromCacheUseCaseTests: XCTestCase {
-
+    
     func test_init_doesNotMessageStoreUponCreation() {
         let (_, store) = makeSUT()
         
@@ -20,7 +20,7 @@ class LoadFeedFromCacheUseCaseTests: XCTestCase {
     func test_load_requestsCacheRetrieval() {
         let (sut, store) = makeSUT()
         
-        sut.load() { _ in }
+        sut.load { _ in }
         
         XCTAssertEqual(store.receivedMessages, [.retrieve])
     }
@@ -31,7 +31,7 @@ class LoadFeedFromCacheUseCaseTests: XCTestCase {
         let exp = expectation(description: "Wait for load completion")
         
         var receivedError: Error?
-        sut.load { error  in
+        sut.load { error in
             receivedError = error
             exp.fulfill()
         }
