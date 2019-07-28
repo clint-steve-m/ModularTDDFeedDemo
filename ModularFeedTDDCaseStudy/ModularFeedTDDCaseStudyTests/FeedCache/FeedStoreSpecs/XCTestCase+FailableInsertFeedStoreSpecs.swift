@@ -1,5 +1,5 @@
 //
-//  :XCTestCase+FailableInsertFeedStoreSpecs.swift
+//  XCTestCase+FailableInsertFeedStoreSpecs.swift
 //  ModularFeedTDDCaseStudyTests
 //
 //  Created by Clint M on 7/28/19.
